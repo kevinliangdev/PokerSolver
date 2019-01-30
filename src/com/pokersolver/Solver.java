@@ -20,6 +20,11 @@ public class Solver {
 
         return solver;
     }
+    public void createPotOdds() throws InstantiationException{
+
+        potOdds = new PotOdds();
+
+    }
 
     public PotOdds createPotOdds(double potTotal, double toCall) throws IllegalArgumentException{
 
@@ -38,9 +43,9 @@ public class Solver {
         return getOuts();
     }
 
-    public Outs createOuts() throws InstantiationException{
-        this.outs = new Outs();
-        return outs;
+    public void createOuts() throws InstantiationException{
+        outs = new Outs();
+
 
     }
 
@@ -48,9 +53,9 @@ public class Solver {
         return outs;
     }
 
-    public ExpectedValue createEV() throws InstantiationException{
-        this.ev = new ExpectedValue();
-        return ev;
+    public void createEV() throws InstantiationException{
+        ev = new ExpectedValue();
+
 
     }
 

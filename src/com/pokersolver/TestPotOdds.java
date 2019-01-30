@@ -32,6 +32,11 @@ public class TestPotOdds {
                     solver.createPotOdds(5, -2);
                 });
 
+        assertThrows(InstantiationException.class,
+                ()->{
+                    solver.createPotOdds();
+                });
+
     }
 
     @Test

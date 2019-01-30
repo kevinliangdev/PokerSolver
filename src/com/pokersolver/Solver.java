@@ -4,6 +4,7 @@ public class Solver {
 
     private PotOdds potOdds;
     private Outs outs;
+    private ExpectedValue ev;
 
     private static Solver solver;
 
@@ -32,7 +33,7 @@ public class Solver {
         return potOdds;
     }
 
-    public Outs createOuts(int outs) {
+    public Outs createOuts(int outs) throws IllegalArgumentException{
         this.outs = new Outs(outs);
         return getOuts();
     }
@@ -45,6 +46,18 @@ public class Solver {
 
     public Outs getOuts() {
         return outs;
+    }
+
+    public ExpectedValue createEV() throws InstantiationException{
+        this.ev = new ExpectedValue();
+        return ev;
+
+    }
+
+    public ExpectedValue createEV(double equity, double toCall, double totalPot) throws IllegalArgumentException{
+        this.ev = new ExpectedValue(equity, toCall, totalPot);
+        return ev;
+
     }
 
 

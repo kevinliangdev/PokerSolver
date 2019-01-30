@@ -27,6 +27,11 @@ public class Outs {
         return CustomUtilities.roundNDecimalDigits((1 - (1 - (double) outs / 47) * (1 - (double) outs / 46)) * 100, 2);
     }
 
+    public String toString() {
+        return "The percentage to hit your outs with 1 card left is: " +
+                percentWhenOnlyOneCardLeft() + ". If 2 cards left, then: " + percentWhenTwoCardsLeft() + ".";
+    }
+
 
 
 

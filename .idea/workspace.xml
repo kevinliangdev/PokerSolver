@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a752f5-343f-4ecb-81cf-2527863e1504" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pokersolver/Outs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pokersolver/TestCustomUtilities.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pokersolver/TestOuts.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/pokersolver/Tests.java" afterPath="$PROJECT_DIR$/src/com/pokersolver/TestPotOdds.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pokersolver/ExpectedValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/pokersolver/TestExpectedValue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pokersolver/Main.java" afterPath="$PROJECT_DIR$/src/com/pokersolver/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pokersolver/Outs.java" afterPath="$PROJECT_DIR$/src/com/pokersolver/Outs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pokersolver/Solver.java" afterPath="$PROJECT_DIR$/src/com/pokersolver/Solver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pokersolver/TestOuts.java" afterPath="$PROJECT_DIR$/src/com/pokersolver/TestOuts.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,33 +21,26 @@
     <SUITE FILE_PATH="coverage/PokerSolver$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1548816890957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pokersolver.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/PokerSolver$TestOuts.coverage" NAME="TestOuts Coverage Results" MODIFIED="1548827067349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/PokerSolver$TestOuts.coverage" NAME="TestOuts Coverage Results" MODIFIED="1548830641043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pokersolver.Outs</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/PokerSolver$TestCustomUtilities.coverage" NAME="TestCustomUtilities Coverage Results" MODIFIED="1548825872766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pokersolver.CustomUtilities</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/PokerSolver$TestPotOdds.coverage" NAME="TestPotOdds Coverage Results" MODIFIED="1548825823240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/PokerSolver$TestExpectedValue.coverage" NAME="TestExpectedValue Coverage Results" MODIFIED="1548830636142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.pokersolver.ExpectedValue</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/PokerSolver$TestPotOdds.coverage" NAME="TestPotOdds Coverage Results" MODIFIED="1548830648068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pokersolver.PotOdds</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pokersolver/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestPotOdds.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pokersolver/TestPotOdds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="518">
+              <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="40" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,26 +60,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Executable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/junit/lib/junit-jupiter-api-5.0.0-RC2.jar!/org/junit/jupiter/api/function/Executable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CustomUtilities.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pokersolver/CustomUtilities.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,16 +70,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Solver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pokersolver/Solver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding>
-                <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,18 +113,43 @@
       <file leaf-file-name="Outs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pokersolver/Outs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestOuts.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestOuts.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pokersolver/TestOuts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="570">
+              <caret line="38" column="110" lean-forward="true" selection-start-line="38" selection-start-column="110" selection-end-line="38" selection-end-column="110" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpectedValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pokersolver/ExpectedValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+              <folding>
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestExpectedValue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pokersolver/TestExpectedValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,9 +190,11 @@
         <option value="$PROJECT_DIR$/src/com/pokersolver/TestSolver.java" />
         <option value="$PROJECT_DIR$/src/com/pokersolver/TestPotOdds.java" />
         <option value="$PROJECT_DIR$/src/com/pokersolver/TestCustomUtilities.java" />
-        <option value="$PROJECT_DIR$/src/com/pokersolver/Outs.java" />
         <option value="$PROJECT_DIR$/src/com/pokersolver/Solver.java" />
         <option value="$PROJECT_DIR$/src/com/pokersolver/TestOuts.java" />
+        <option value="$PROJECT_DIR$/src/com/pokersolver/Outs.java" />
+        <option value="$PROJECT_DIR$/src/com/pokersolver/TestExpectedValue.java" />
+        <option value="$PROJECT_DIR$/src/com/pokersolver/ExpectedValue.java" />
       </list>
     </option>
   </component>
@@ -256,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestOuts">
+  <component name="RunManager" selected="JUnit.TestPotOdds">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.pokersolver.Main" />
@@ -289,6 +298,35 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pokersolver" />
       <option name="MAIN_CLASS_NAME" value="com.pokersolver.TestCustomUtilities" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestExpectedValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pokersolver.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.pokersolver.ExpectedValue" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PokerSolver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pokersolver" />
+      <option name="MAIN_CLASS_NAME" value="com.pokersolver.TestExpectedValue" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="" />
@@ -375,18 +413,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestPotOdds" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestCustomUtilities" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.TestOuts" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestExpectedValue" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestOuts" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCustomUtilities" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestPotOdds" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestPotOdds" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestOuts" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestExpectedValue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestCustomUtilities" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -404,35 +444,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCustomUtilities - 2019.01.30 at 13h 36m 20s.xml">
-      <configuration name="TestCustomUtilities" configurationId="JUnit" />
+    <history-entry file="TestExpectedValue - 2019.01.30 at 14h 23m 49s.xml">
+      <configuration name="TestExpectedValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCustomUtilities - 2019.01.30 at 13h 36m 37s.xml">
-      <configuration name="TestCustomUtilities" configurationId="JUnit" />
+    <history-entry file="TestExpectedValue - 2019.01.30 at 14h 26m 22s.xml">
+      <configuration name="TestExpectedValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 36m 40s.xml">
+    <history-entry file="TestExpectedValue - 2019.01.30 at 14h 27m 16s.xml">
+      <configuration name="TestExpectedValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExpectedValue - 2019.01.30 at 14h 32m 46s.xml">
+      <configuration name="TestExpectedValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExpectedValue - 2019.01.30 at 14h 43m 30s.xml">
+      <configuration name="TestExpectedValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestExpectedValue - 2019.01.30 at 14h 43m 57s.xml">
+      <configuration name="TestExpectedValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOuts - 2019.01.30 at 14h 41m 10s.xml">
       <configuration name="TestOuts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 37m 44s.xml">
+    <history-entry file="TestOuts - 2019.01.30 at 14h 41m 46s.xml">
       <configuration name="TestOuts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 38m 22s.xml">
+    <history-entry file="TestOuts - 2019.01.30 at 14h 44m 02s.xml">
       <configuration name="TestOuts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 39m 06s.xml">
-      <configuration name="TestOuts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 43m 56s.xml">
-      <configuration name="TestOuts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 44m 09s.xml">
-      <configuration name="TestOuts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 44m 24s.xml">
-      <configuration name="TestOuts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestOuts - 2019.01.30 at 13h 44m 28s.xml">
-      <configuration name="TestOuts" configurationId="JUnit" />
+    <history-entry file="TestPotOdds - 2019.01.30 at 14h 44m 09s.xml">
+      <configuration name="TestPotOdds" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -447,7 +487,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20072551" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23472223" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23402777" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -602,19 +642,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1548827067131" expanded="true" signature="43768:43785" ph="..." />
-            <marker date="1548827067131" expanded="true" signature="43768:43803" ph="..." />
-            <marker date="1548827067131" expanded="true" signature="43768:43816" ph="..." />
-            <marker date="1548827067131" expanded="true" signature="43768:43831" ph="..." />
+            <marker date="1548830647938" expanded="true" signature="47077:47094" ph="..." />
+            <marker date="1548830647938" expanded="true" signature="47077:47112" ph="..." />
+            <marker date="1548830647938" expanded="true" signature="47077:47125" ph="..." />
+            <marker date="1548830647938" expanded="true" signature="47077:47140" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/CustomUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,12 +682,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/CustomUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pokersolver/TestCustomUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -673,41 +726,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/Outs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pokersolver/TestPotOdds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="518">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="40" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/Outs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="433">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pokersolver/TestOuts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="570">
+          <caret line="38" column="110" lean-forward="true" selection-start-line="38" selection-start-column="110" selection-end-line="38" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/ExpectedValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pokersolver/TestExpectedValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

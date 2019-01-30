@@ -33,5 +33,13 @@ public class TestOuts {
                 });
     }
 
+    @Test
+    void testToString() {
+        Outs outs = solver.createOuts(8);
+        assertEquals("The percentage to hit your outs with 1 card left is: 17.02. If 2 cards left, then: 31.45.",
+                outs.toString());
+
+    }
+
 
 }

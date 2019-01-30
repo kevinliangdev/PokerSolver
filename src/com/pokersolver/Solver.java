@@ -19,13 +19,12 @@ public class Solver {
         return solver;
     }
 
-    public void createPotOdds(double potTotal, double toCall) {
-        try {
-            potOdds = new PotOdds(potTotal, toCall);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
+    public PotOdds createPotOdds(double potTotal, double toCall) throws IllegalArgumentException{
 
-        }
+            potOdds = new PotOdds(potTotal, toCall);
+
+
+        return getPotOdds();
     }
 
     public PotOdds getPotOdds() {

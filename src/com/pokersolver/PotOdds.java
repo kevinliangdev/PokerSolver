@@ -6,21 +6,21 @@ public class PotOdds {
     private double potTotal;
     private double toCall;
 
-    public PotOdds(double potTotal, double toCall) throws Exception{
+    public PotOdds(double potTotal, double toCall) throws IllegalArgumentException{
         if (potTotal < 0 || toCall < 0) {
-            throw new Exception("inputs cannot be negative");
+            throw new IllegalArgumentException("inputs cannot be negative");
         }
 
         setPotTotal(potTotal);
         setToCall(toCall);
     }
 
-    public Double potOddsRatioCalculation() {
+    public double potOddsRatioCalculation() {
         double reward = potTotal/toCall;
-        return CustomUtilities.roundNDecimalDigits(reward, 2);
+        return  CustomUtilities.roundNDecimalDigits(reward, 2);
     }
 
-    public Double potOddsEquityNeededCalculation() {
+    public double potOddsEquityNeededCalculation() {
         double equityNeeded = CustomUtilities.roundNDecimalDigits(1 / ((Math.round((potTotal / toCall)*100.0) / 100.0) + 1) * 100.0, 2);
         return equityNeeded;
     }

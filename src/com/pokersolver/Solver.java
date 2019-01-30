@@ -3,6 +3,7 @@ package com.pokersolver;
 public class Solver {
 
     private PotOdds potOdds;
+    private Outs outs;
 
     private static Solver solver;
 
@@ -30,6 +31,23 @@ public class Solver {
     public PotOdds getPotOdds() {
         return potOdds;
     }
+
+    public Outs createOuts(int outs) {
+        this.outs = new Outs(outs);
+        return getOuts();
+    }
+
+    public Outs createOuts() throws InstantiationException{
+        this.outs = new Outs();
+        return outs;
+
+    }
+
+    public Outs getOuts() {
+        return outs;
+    }
+
+
 
 
 }

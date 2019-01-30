@@ -11,5 +11,6 @@ public class Main {
         solver.createPotOdds(1, 1);
         String message = solver.getPotOdds().toString();
         System.out.println(message);
+
     }
 }

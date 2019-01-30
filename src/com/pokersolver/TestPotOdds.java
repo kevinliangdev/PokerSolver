@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
-public class Tests {
+public class TestPotOdds {
 
     Solver solver = Solver.getInstance();
 
@@ -42,18 +42,7 @@ public class Tests {
 
     }
 
-    @Test
-    void testCustomUtilRoundNDigits() {
 
-        assertThrows(InstantiationException.class,
-                ()->{
-                    new CustomUtilities();
-                });
-
-
-        double d = 5.12345;
-        assertEquals(5.123, CustomUtilities.roundNDecimalDigits(d,3));
-    }
 
 
 

@@ -1,4 +1,6 @@
-package com.pokersolver;
+package com.pokersolver.algorithms;
+
+import com.pokersolver.util.CustomUtilities;
 
 public class ExpectedValue {
 

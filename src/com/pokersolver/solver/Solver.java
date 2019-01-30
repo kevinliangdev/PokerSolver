@@ -1,4 +1,8 @@
-package com.pokersolver;
+package com.pokersolver.solver;
+
+import com.pokersolver.algorithms.ExpectedValue;
+import com.pokersolver.algorithms.Outs;
+import com.pokersolver.algorithms.PotOdds;
 
 public class Solver {
 

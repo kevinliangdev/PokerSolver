@@ -1,4 +1,4 @@
-package com.pokersolver;
+package com.pokersolver.util;
 
 public  final class CustomUtilities {
 

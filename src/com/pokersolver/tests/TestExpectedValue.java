@@ -1,4 +1,6 @@
-package com.pokersolver;
+package com.pokersolver.tests;
+import com.pokersolver.algorithms.ExpectedValue;
+import com.pokersolver.solver.Solver;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

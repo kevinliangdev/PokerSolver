@@ -1,5 +1,6 @@
-package com.pokersolver;
+package com.pokersolver.tests;
 
+import com.pokersolver.util.CustomUtilities;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

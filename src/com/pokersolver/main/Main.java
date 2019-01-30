@@ -1,4 +1,6 @@
-package com.pokersolver;
+package com.pokersolver.main;
+
+import com.pokersolver.solver.Solver;
 
 public class Main {
 

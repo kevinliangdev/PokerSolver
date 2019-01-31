@@ -4,7 +4,7 @@ import com.pokersolver.util.CustomUtilities;
 
 public class Outs {
 
-    int outs;
+    private int outs;
 
     public Outs() throws InstantiationException{
         throw new InstantiationException("Please enter number of outs");
@@ -31,7 +31,7 @@ public class Outs {
 
     public String toString() {
         return "The percentage to hit your outs with 1 card left is: " +
-                percentWhenOnlyOneCardLeft() + ". If 2 cards left, then: " + percentWhenTwoCardsLeft() + ".";
+                percentWhenOnlyOneCardLeft() + "%. If 2 cards left, then: " + percentWhenTwoCardsLeft() + "%.";
     }
 
 

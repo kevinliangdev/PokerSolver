@@ -4,9 +4,9 @@ import com.pokersolver.util.CustomUtilities;
 
 public class ExpectedValue {
 
-    double equity;
-    double pot;
-    double toCall;
+    private double equity;
+    private double pot;
+    private double toCall;
 
     public ExpectedValue() throws InstantiationException{
         throw new InstantiationException("Please enter equity %");
@@ -26,7 +26,7 @@ public class ExpectedValue {
 
 
     public double getEV() {
-        double ev = equity * pot - toCall;
+        double ev = equity * (pot+toCall) - toCall;
 
         return CustomUtilities.roundNDecimalDigits(ev, 1);
     }

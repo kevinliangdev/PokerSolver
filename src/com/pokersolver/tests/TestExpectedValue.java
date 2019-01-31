@@ -13,7 +13,7 @@ public class TestExpectedValue {
     @Test
     void testEV() {
 
-        ExpectedValue ev = solver.createEV(87.9,100,200);
+        ExpectedValue ev = solver.createEV(87.9,100,100);
         assertEquals(75.80, ev.getEV());
 
     }
@@ -46,7 +46,7 @@ public class TestExpectedValue {
 
     @Test
     void testToString() {
-        ExpectedValue ev = solver.createEV(87.9,100,200);
+        ExpectedValue ev = solver.createEV(87.9,100,100);
         assertEquals("EV: 75.8", ev.toString());
 
     }

@@ -9,12 +9,12 @@ public class PotOdds {
     private double toCall;
 
     public PotOdds() throws InstantiationException{
-        throw new InstantiationException("Please input potTotal and amount toCall");
+        throw new InstantiationException("Please input potTotal and amount toCall.");
     }
 
     public PotOdds(double potTotal, double toCall) throws IllegalArgumentException{
-        if (potTotal < 0 || toCall < 0) {
-            throw new IllegalArgumentException("inputs cannot be negative");
+        if (potTotal <= 0 || toCall <= 0) {
+            throw new IllegalArgumentException("Inputs cannot be negative.");
         }
 
         setPotTotal(potTotal);

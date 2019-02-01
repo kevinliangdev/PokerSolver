@@ -19,7 +19,7 @@ public class Main {
         boolean mainNotDone = true;
         while (mainNotDone) {
 
-
+            System.out.println("---------------------------");
             System.out.println("Welcome to Poker Solver.");
             System.out.println("---------------------------");
             System.out.println("Enter 1 to calculate pot odds.");
@@ -31,7 +31,17 @@ public class Main {
             Solver solver = Solver.getInstance();
 
             Scanner scanner = new Scanner(System.in);
-            int i = scanner.nextInt();
+            int i = -1;
+
+            try {
+                i = scanner.nextInt();
+            } catch (Exception e) {
+
+                // input needs to be a valid number,
+                // if exception is caught, program will loop and prompt user to re-enter a valid number.
+
+            }
+
 
 
             if (i == 1) {
@@ -55,7 +65,7 @@ public class Main {
                     if (!notDone) {
                         System.out.println(potOdds.toString());
 
-                        System.out.println("---------------------------");
+
 
                     }
                 }
@@ -122,11 +132,12 @@ public class Main {
 
             }
 
-            else if (i < 1 || i > numOfAlgorithms) {
+            else if (i < 1 || i > numOfAlgorithms){
                 System.out.println("******** " + "Please enter a valid number.");
-                System.out.println("---------------------------");
+
 
             }
+
 
 
         }

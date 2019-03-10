@@ -7,4 +7,4 @@ Currently supports
 2. Calculate the percentage of hitting your outs either on the flop or turn given a) number of outs
 3. Calculate the Expected Value of a decision given a) equity percentage b) amount you need to call c) total amount in pot
 
-*Not built with a build tool so to run program, you must compile all necessary classes and run off the command line. Sorry! Will fix in future.
+*To run program, you must compile all necessary classes and run off the command line. Sorry! Will fix in future.

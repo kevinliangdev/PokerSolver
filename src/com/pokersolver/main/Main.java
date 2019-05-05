@@ -3,6 +3,7 @@ package com.pokersolver.main;
 import com.pokersolver.algorithms.ExpectedValue;
 import com.pokersolver.algorithms.Outs;
 import com.pokersolver.algorithms.PotOdds;
+import com.pokersolver.algorithms.SPR;
 import com.pokersolver.solver.Solver;
 
 
@@ -25,6 +26,7 @@ public class Main {
             System.out.println("Enter 1 to calculate pot odds.");
             System.out.println("Enter 2 to calculate % to hit your outs.");
             System.out.println("Enter 3 to calculate expected value.");
+            System.out.println("Enter 4 to calculate SPR");
             System.out.println("Enter 0 to terminate the program.");
             System.out.println("---------------------------");
 
@@ -122,6 +124,17 @@ public class Main {
                         System.out.println(ev.toString());
 
                     }
+
+                }
+            } else if (i ==4) {
+                boolean notDone = true;
+                while(notDone) {
+                    System.out.println("Enter stack size and pot size");
+                    double stack = scanner.nextDouble();
+                    double pot = scanner.nextDouble();
+                    SPR spr = new SPR(stack, pot);
+                    System.out.println(spr.calcSPR());
+                    notDone = false;
 
                 }
             }
